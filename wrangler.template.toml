@@ -1,0 +1,12 @@
+name = "honolifeapi"
+main = "src/index.ts"
+compatibility_date = "2023-01-01"
+
+workers_dev = true
+node_compat = true
+
+[vars]
+AUTHOR = "Hono Life API"
+SPOTIFY_CLIENT_ID = "your_spotify_client_id_here"
+SPOTIFY_CLIENT_SECRET = "your_spotify_client_secret_here"
+SPOTIFY_REFRESH_TOKEN = "your_spotify_refresh_token_here"
