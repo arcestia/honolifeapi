@@ -51,6 +51,8 @@ Returns basic profile information including name, roles, current location, and c
 
 #### GET /profile/location
 Returns current location information.
+
+**Response**
 ```json
 {
   "city": "Jakarta",
