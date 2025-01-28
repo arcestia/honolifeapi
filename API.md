@@ -51,6 +51,26 @@ Returns basic profile information including name, roles, current location, and c
 
 #### GET /profile/location
 Returns current location information.
+```json
+{
+  "city": "Jakarta",
+  "country": "Indonesia",
+  "countryCode": "ID",
+  "timezone": "UTC+7",
+  "cosmic": [
+    "Jakarta",
+    "Indonesia",
+    "Planet Earth",
+    "Solar System",
+    "Orion Arm",
+    "Milky Way Galaxy",
+    "Local Group",
+    "Virgo Supercluster",
+    "Laniakea Supercluster",
+    "The Universe"
+  ]
+}
+```
 
 #### GET /profile/experience
 Returns complete work history, sorted from newest to oldest.
